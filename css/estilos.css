@@ -8,14 +8,13 @@ body {
   background-color: beige;
   padding: 20px; }
 
-/* degrade */
+
 nav {
   background: grey;
   background: linear-gradient(to right, white, lightgray, grey); }
 
 .content-cabecera {
   width: 100%;
-  margin-top: 100px;
   text-align: center; }
 
 
@@ -25,11 +24,14 @@ nav {
   margin-top: 20px; }
 
   .contenedor {
-    background-image: url(alarma.jpg);
+    background-image: url(../imagenes/alarma.jpg);
+    background-size: cover;
+    height: 550px;
   }
 
 .content-cabecera p {
-  margin-top: 40px; }
+  margin-top: 40px;
+  color: white; }
 
 .content-header {
   background-color: white;
@@ -52,7 +54,6 @@ nav {
   font-weight: bold; }
 
 .footer-html {
-  margin-top: 200px;
   padding: 20px; }
 
 .footer-html h4 {
@@ -64,9 +65,16 @@ nav {
   color: black;  }
 
 /* inicio servicios */
+
+.contenedor2 {
+  background-image: url(../imagenes/alarma2.jpg);
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+
 .cabecera-servicio {
   width: 100%;
-  margin-top: 100px;
   text-align: center; }
 
 .cabecera-servicio h1 {
@@ -114,17 +122,26 @@ nav {
   list-style: none; }
 
 .p1 {
-  background-color: white;
   font-size: 30px;
   display: inline-block; }
 
 .p2 {
   font-size: 15px; }
 
+
 /* inicio tienda */
+
+.contenedor3{
+   background-image: url(../imagenes/ladron.png);
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+
+
+
 .cabecera-tienda {
   width: 100%;
-  margin-top: 100px;
   text-align: center; }
 
 .cabecera-tienda h1 {
@@ -185,6 +202,15 @@ nav {
   transform: rotateX(-30deg); }
 
 /* inicio contactos */
+
+.contenedor4{
+  background-image: url(../imagenes/fondoContacto.jpg);
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+
+
 .divContactoo {
   background-color: black;
   width: 400px;
