@@ -18,10 +18,15 @@ nav {
   margin-top: 100px;
   text-align: center; }
 
+
 .content-cabecera h1 {
   font-weight: 100;
   color: darkred;
   margin-top: 20px; }
+
+  .contenedor {
+    background-image: url(alarma.jpg);
+  }
 
 .content-cabecera p {
   margin-top: 40px; }
@@ -51,9 +56,12 @@ nav {
   padding: 20px; }
 
 .footer-html h4 {
+  font-size: 15px;
   display: inline;
   margin: 10px;
-  background-color: lightgray; }
+  background: red;
+  background: linear-gradient(to left, gray, transparent);
+  color: black;  }
 
 /* inicio servicios */
 .cabecera-servicio {
@@ -94,9 +102,12 @@ nav {
   padding: 20px; }
 
 .footer-servicio h4 {
+  font-size: 15px;
   display: inline;
   margin: 10px;
-  background-color: lightgray; }
+  background: red;
+  background: linear-gradient(to left, gray, transparent);
+  color: black; }
 
 .lista-servicio {
   font-style: italic;
@@ -149,9 +160,12 @@ nav {
   padding: 20px; }
 
 .footer-tienda h4 {
+  font-size: 15px;
   display: inline;
   margin: 10px;
-  background-color: lightgray; }
+  background: red;
+  background: linear-gradient(to left, gray, transparent);
+  color: black; }
 
 .lista-tienda {
   font-style: italic;
@@ -207,7 +221,7 @@ nav {
   border: none;
   color: whitw;
   text-transform: uppercase;
-  background: linear-gradient(to left top, black, white);
+  background: linear-gradient(to left, gray, transparent);
   font-size: 15px; }
 
 .boton:hover {
@@ -261,9 +275,12 @@ nav {
   padding: 20px; }
 
 .footer-contacto h4 {
+  font-size: 15px;
   display: inline;
   margin: 10px;
-  background-color: lightgray; }
+  background: red;
+  background: linear-gradient(to left, gray, transparent);
+  color: black; }
 
 .lista-contacto {
   font-style: italic;
@@ -312,9 +329,12 @@ nav {
   padding: 20px; }
 
 .footer-clientes h4 {
+  font-size: 15px;
   display: inline;
   margin: 10px;
-  background-color: lightgray; }
+  background: red;
+  background: linear-gradient(to left, gray, transparent);
+  color: black; }
 
 .lista-clientes {
   font-style: italic; }
@@ -335,4 +355,4 @@ nav {
   padding: 50px 0; }
 
 .bgFooter {
-  background: linear-gradient(to top, black, gray, transparent); }
+  background: linear-gradient(to left, gray, transparent); }
